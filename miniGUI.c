@@ -475,7 +475,7 @@ static void Bitmap_format_Matrix(uint8_t *dst,uint8_t *src)
 static void DrawMatrix(uint16_t Xpos, uint16_t Ypos,uint16_t Width, uint16_t High,const uint8_t* Matrix)
 {
 	uint16_t i,j,x,y;
-	uint8_t R,G,B;
+	uint8_t R=0,G=0,B=0;
 	uint8_t temp1,temp2;
 	double Gray;
 	
